@@ -6,6 +6,7 @@ public class PrimeNumberChecker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println();
         System.out.print("\u001B[34m"); 
         System.out.println("==== Prime Number Checker ====");
         System.out.print("\u001B[0m"); 
@@ -34,6 +35,8 @@ public class PrimeNumberChecker {
             System.out.println("Result: " + num + " is not a prime number.");
         }
         System.out.print("\u001B[0m"); 
+        System.out.println("==============================");
+        System.out.println();
 
         scanner.close();
     }
