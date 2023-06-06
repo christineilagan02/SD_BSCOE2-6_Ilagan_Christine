@@ -35,7 +35,7 @@ public class PrimeNumberChecker {
             System.out.println("Result: " + num + " is not a prime number.");
         }
         System.out.print("\u001B[0m"); 
-        System.out.println("==============================");
+        System.out.println("\u001B[34m==============================\u001B[0m");
         System.out.println();
 
         scanner.close();
